@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 
-/* ------------------------------------------------------------------------- */
+/* --------------------navbar----------------------------------------------- */
 
 .nav {
   display: none;
@@ -74,7 +74,7 @@ body {
   border: 1.5px solid #2d76f9;
 }
 
-/* ------------------------------------------------------------------------- */
+/* -----------------home-sec------------------------------------------------ */
 
 .home-wrapper > .container {
   display: flex;
@@ -133,7 +133,7 @@ body {
   border-radius: 50px;
 }
 
-/* ------------------------------------------------------------------------- */
+/* ------------------features----------------------------------------------- */
 
 section.features {
   margin-top: 17rem;
@@ -173,7 +173,7 @@ section.features {
   position: absolute;
 }
 
-/* ------------------------------------------------------------------------- */
+/* -------------highlight-feature-------------------------------------------- */
 
 .feature-sec {
   position: relative;
@@ -235,60 +235,7 @@ section.features {
   color: #747474;
 }
 
-/* .best-feature {
-  transform: translateY(16rem);
-}
-
-.best-feature-wrapper > .container {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-.task-img {
-  position: relative;
-}
-
-.task-img::after {
-  content: "";
-  position: absolute;
-  top: -20rem;
-  right: 10rem;
-  width: 50vw;
-  height: 600px;
-  background-color: #d6e5fd;
-  border-radius: 0 100px 100px 0;
-  opacity: 0.4;
-  z-index: -2;
-}
-
-.task-img > img {
-  width: 700px;
-  height: 600px;
-  position: absolute;
-  top: -20rem;
-  right: 10rem;
-  z-index: -1;
-  overflow-x: hidden;
-}
-
-.task-info {
-  width: 493px;
-}
-
-.task-info > .heading {
-  font-weight: 600;
-  font-size: 36px;
-  margin-bottom: 50px;
-}
-
-.task-info > .desc {
-  font-size: 18px;
-  line-height: 36px;
-  color: #747474;
-} */
-
-/* ------------------------------------------------------------------------- */
+/* -------------notify-sec-------------------------------------------------- */
 
 .notify-sec {
   position: relative;
@@ -349,65 +296,7 @@ section.features {
   color: #747474;
 }
 
-/* .app-notify {
-  transform: translateY(40rem);
-}
-
-.app-notify-wrapper > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.notify-info {
-  width: 493px;
-}
-
-.notify-info > .heading {
-  font-weight: 600;
-  font-size: 36px;
-  margin-bottom: 50px;
-}
-
-.notify-info > .desc {
-  font-size: 18px;
-  line-height: 36px;
-  color: #747474;
-  padding-right: 12px;
-}
-
-.notify-img {
-  position: relative;
-}
-
-.notify-img::after {
-  content: "";
-  position: absolute;
-  top: -20rem;
-  left: -20rem;
-  width: 50vw;
-  height: 600px;
-  background-color: #d6e5fd;
-  opacity: 0.4;
-  z-index: -2;
-  overflow-x: hidden;
-}
-
-.notify-img .bg-overlay {
-  transform: scaleX(-1);
-}
-
-.notify-img > img {
-  width: 700px;
-  height: 600px;
-  position: absolute;
-  top: -20rem;
-  right: -7rem;
-  z-index: -1;
-  overflow-x: hidden;
-} */
-
-/* ------------------------------------------------------------------------- */
+/* -------------download-sec------------------------------------------------ */
 
 .download {
   margin-top: 12rem;
@@ -492,7 +381,7 @@ section.features {
   color: #2d76f9;
 }
 
-/* ------------------------------------------------------------------------- */
+/* -------------user-review------------------------------------------------- */
 
 .feedback {
   transform: translateY(16rem);
@@ -515,7 +404,6 @@ section.features {
   position: absolute;
   top: -19rem;
   right: 20rem;
-  /* left: -85rem; */
   width: 50vw;
   height: 600px;
   background-color: #d6e5fd;
@@ -603,7 +491,7 @@ section.features {
   outline: none;
 }
 
-/* ------------------------------------------------------------------------- */
+/* ------------footer------------------------------------------------------- */
 
 .footer-wrapper {
   margin-top: 30rem;
@@ -665,7 +553,7 @@ section.features {
   align-items: center;
 }
 
-/* ------------------------------------------------------------------------- */
+/* -----------tab & ipad---------------------------------------------------- */
 
 @media (max-width: 768px) {
   .container {
@@ -901,7 +789,7 @@ section.features {
   }
 }
 
-/* ------------------------------------------------------------------------- */
+/* ------------sm & mobile--------------------------------------------------- */
 
 @media (max-width: 500px) {
   .feedback-info {
